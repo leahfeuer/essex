@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 767px)  
+{
+	 #hero { display: none; 
+	 }
+
+	.navbar-inner {
+	  text-align:center;
+	  padding: none;
+	}
+}
+
+@media screen and (max-width: 979px) 
+{
+	 #hero { 
+	 padding-top: 0px; 
+	}
+
+	.navbar{
+		max-height: 30px;
+	}
+
+}
+

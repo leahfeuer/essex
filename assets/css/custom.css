@@ -120,9 +120,10 @@ body {
 
 }
 
-#contact{
-
+.grey{
+	 background-color: #eee;
 }
+
 
 .description {
 	font-size: 200%;
@@ -157,8 +158,13 @@ body {
 	margin-bottom:3%;
 }
 
-#finishes{
-	background-color: rgb(241,241,242); 
+#finishes ul {
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+#samples{
+	background-color: #eee; 
 	color: rgb(85,85,85);
 	text-align: center;
 }
@@ -178,7 +184,12 @@ h3{
 	text-align: center;
 }
 
-#finishes ul {
+h4{
+	text-align: center;
+	font-weight: 300;
+}
+
+#samples ul {
 	padding-top: 6%;
 	padding-bottom: 6%;
 }
@@ -283,3 +294,13 @@ a:focus {
   text-decoration: underline;
 }
 
+#materials a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#materials a:hover,
+a:focus {
+  color: rgb(93,167,165);
+  text-decoration: none;
+}
